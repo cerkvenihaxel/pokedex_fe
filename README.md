@@ -1,36 +1,49 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Project Documentation
+
+## Overview
+
+This project is a web application built with [Next.js](https://nextjs.org/), a popular React framework for building single page applications (SPAs). The application provides a platform for users to search and view information about Pokémon.
+
+## Key Features
+
+- **Search Bar**: Users can search for Pokémon by name. The search bar provides autocomplete suggestions as the user types.
+- **Pokémon Details**: When a user selects a Pokémon from the search results, they are redirected to a detailed view of the selected Pokémon.
+- **Lazy Loading**: The search results are lazily loaded, improving performance by only loading data as needed.
+
+## Project Structure
+
+The project is structured into several key components:
+
+- `SearchBar.tsx`: This component handles user input for searching Pokémon. It also manages the display of search results.
+- `CardGrid.tsx`: This component is responsible for displaying Pokémon in a grid format.
+- `PokeType.tsx`: This component displays the type of a Pokémon and applies corresponding styles based on the type.
 
 ## Getting Started
 
-First, run the development server:
+To get started with this project, clone the repository and install the dependencies:
+
+```bash
+git clone <repository-url>
+cd <repository-name>
+npm install
+```
+
+Then, start the development server:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Deployment
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+The project can be deployed using [Vercel](https://vercel.com/), a platform built by the creators of Next.js. For more details, check out the [Next.js deployment documentation](https://nextjs.org/docs/deployment).
 
-## Learn More
+## Contributing
 
-To learn more about Next.js, take a look at the following resources:
+Contributions are welcome! Please read the contributing guidelines before making any changes.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## License
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+This project is licensed under the terms of the MIT license.
