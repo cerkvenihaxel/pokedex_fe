@@ -2,7 +2,9 @@
 
 ## Overview
 
-This project is a web application built with [Next.js](https://nextjs.org/), a popular React framework for building single page applications (SPAs). The application provides a platform for users to search and view information about Pokémon.
+![Pokedexel banner](https://i.imgur.com/9mHULEc.png)
+
+This project is a web application built with [Next.js](https://nextjs.org/). The application provides a platform for users to search and view information about Pokémon.
 
 ## Key Features
 
@@ -23,8 +25,8 @@ The project is structured into several key components:
 To get started with this project, clone the repository and install the dependencies:
 
 ```bash
-git clone <repository-url>
-cd <repository-name>
+git clone https://github.com/cerkvenihaxel/pokedex_fe
+cd pokedex_fe
 npm install
 ```
 
@@ -35,10 +37,6 @@ npm run dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-## Deployment
-
-The project can be deployed using [Vercel](https://vercel.com/), a platform built by the creators of Next.js. For more details, check out the [Next.js deployment documentation](https://nextjs.org/docs/deployment).
 
 ## Contributing
 
