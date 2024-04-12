@@ -23,7 +23,8 @@ const PokemonCard = ({name, imageUrl, id, type, description, stats}:{name:string
             case 'Base Stats':
                 return renderStats();
             case 'Evolution':
-                return <p>{pokemon.evolution}</p>;
+                return <p>Work in progress...</p>
+                //return <p>{pokemon.evolution}</p>;
             default:
                 return null;
         }
